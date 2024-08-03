@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>Total number of users : <%= count %></h3>
+    <form action="/user/new" method="get">
+        <button>Join Us Today!</button>
+    </form>
+    <br><br><br>
+    <a href="http://localhost:8080/user">SEE ALL USERS</a>
+</body>
+</html>
